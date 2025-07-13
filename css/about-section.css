@@ -20,3 +20,31 @@
     background-color: brown;
     width: 50%;
 }
+
+@media (max-width: 400px) {
+    .about {
+        margin-top: 20px;
+        border-bottom: #FBF5DE solid 1px;
+        padding-bottom: 50px;
+    }
+
+    .about-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-text h1 {
+        font-size: 1.4em;
+    }
+
+    .about-image {
+        display: none;
+    }
+
+    .about-text p {
+        font-size: 1em;
+        text-align: center;
+    }
+}

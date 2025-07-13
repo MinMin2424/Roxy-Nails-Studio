@@ -2,7 +2,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0;
     position: sticky;
     /* background-color: #f8f8f8; */
 }
@@ -25,4 +25,72 @@ nav {
 .nav-links a {
     text-decoration: none;
     color: #FBF5DE;
+}
+
+@media (max-width: 400px) {
+    .nav-links {
+        display: none; /* Skrytí odkazu */
+    }
+    .czech {
+        display: none; /* Skrytí obrázku Czech */
+    }
+    .logo {
+        margin-left: 50px;
+        flex-grow: 1;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .burger {
+        display: block;
+        cursor: pointer;
+        padding: 10px;
+    }
+    .burger span {
+        display: block;
+        width: 25px;
+        height: 4px;
+        background-color: #FBF5DE;
+        margin: 4px 0;
+    }
+}
+
+/* Fullscreen menu */
+.fullscreen-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #FBF5DE;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.fullscreen-menu .nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.fullscreen-menu .czech {
+    display: block;
+    margin-top: 20px;
+}
+
+.fullscreen-menu a {
+    text-decoration: none;
+    color: #FBF5DE;
+    font-size: 1.5em;
+}
+
+.fullscreen-menu.active {
+    display: flex;
 }

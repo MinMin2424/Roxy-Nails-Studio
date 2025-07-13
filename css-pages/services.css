@@ -50,3 +50,37 @@ main {
     max-width: 400px;
     border-radius: 10px;
 }
+
+@media (max-width: 400px) {
+    main {
+        margin: 20px;
+    }
+
+    .service-items {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 40px;
+        border-bottom: #FBF5DE solid 1px;
+    }
+
+    .service-items .info {
+        width: 100%;
+    }
+
+    .service-items .info h3 {
+        text-align: center;
+    }
+
+    .service-items .info p {
+        text-align: center;
+    }
+
+    .service-items .image {
+        width: 100%;
+    }
+    
+    .service-items .image img {
+        width: 85%;
+    }
+}

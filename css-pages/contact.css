@@ -88,3 +88,24 @@ section .map iframe {
     border: 10px;
     height: 680px;
 }
+
+@media (max-width: 400px) {
+    section {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section .map {
+        width: 85%;
+    }
+
+    section .map iframe {
+        width: 100%;
+        border: 10px;
+        height: 200px;
+    }
+}

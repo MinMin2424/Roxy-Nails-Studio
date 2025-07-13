@@ -33,3 +33,16 @@ main {
 .service-items .item div {
     margin-bottom: 10px;
 }
+
+@media (max-width: 400px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        margin: 0 5px;
+    }
+
+    .service-items {
+        padding: 0px 10px;
+    }
+}

@@ -35,3 +35,26 @@
     color: #3B060A;
     text-decoration: none;
 }
+
+@media (max-width: 400px) {
+    .services {
+        border-bottom: #FBF5DE solid 1px;
+        padding-bottom: 70px;
+    }
+
+    .services .title {
+        font-size: 1em;
+    }
+
+    .services .items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .services .items .services-item {
+        width: 80%;
+    }
+}

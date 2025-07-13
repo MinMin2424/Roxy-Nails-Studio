@@ -21,3 +21,18 @@
     border: #FBF5DE 2px solid;
     padding: 10PX;
 }
+
+@media (max-width: 400px) {
+    .booking {
+        margin-top: 20px;
+    }
+
+    .booking h1 {
+        font-size: 1.4em;
+    }
+
+    .booking p {
+        font-size: 1em;
+        text-align: center;
+    }
+}
