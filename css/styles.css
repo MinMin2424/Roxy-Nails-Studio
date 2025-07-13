@@ -79,9 +79,9 @@ main {
     margin-bottom: -10px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     body {
-        max-width: 400px;
+        max-width: 600px;
     }
 
     .main-picture {

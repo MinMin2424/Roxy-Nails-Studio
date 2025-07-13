@@ -38,6 +38,7 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-weight: 600;
 }
 
 section .info {
@@ -89,7 +90,7 @@ section .map iframe {
     height: 680px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     section {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -97,6 +98,10 @@ section .map iframe {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    section .info {
+        width: 80%;
     }
 
     section .map {

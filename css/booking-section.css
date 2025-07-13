@@ -22,7 +22,7 @@
     padding: 10PX;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .booking {
         margin-top: 20px;
     }

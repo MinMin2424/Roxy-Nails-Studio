@@ -27,12 +27,12 @@ nav {
     color: #FBF5DE;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .nav-links {
-        display: none; /* Skrytí odkazu */
+        display: none;
     }
     .czech {
-        display: none; /* Skrytí obrázku Czech */
+        display: none;
     }
     .logo {
         margin-left: 50px;

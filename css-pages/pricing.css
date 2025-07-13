@@ -5,6 +5,7 @@ body {
     /* background: #901E3E; */
     background: #3B060A;
     color: #FBF5DE;
+    font-weight: 600;
 }
 
 main {
@@ -12,6 +13,12 @@ main {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     margin: 20px 20px;
+}
+
+.discount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .service-items {
@@ -34,7 +41,7 @@ main {
     margin-bottom: 10px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     main {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
