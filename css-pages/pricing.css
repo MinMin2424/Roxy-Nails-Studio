@@ -1,0 +1,35 @@
+body {
+    font-family: 'Playfair Display', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background: #901E3E; */
+    background: #3B060A;
+    color: #FBF5DE;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 20px 20px;
+}
+
+.service-items {
+    background-color: #FBF5DE;
+    color: #3B060A;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.service-items .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.service-items .item div {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,23 @@
+.booking {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking h1 {
+    font-size: 1.8em;
+}
+
+.booking a {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #FBF5DE;
+    color: #3B060A;
+    border-radius: 10PX;
+    cursor: pointer;
+    border: #FBF5DE 2px solid;
+    padding: 10PX;
+}

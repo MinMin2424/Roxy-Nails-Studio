@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    /* background-color: #f8f8f8; */
+}
+
+.czech img {
+    width: 30px;
+}
+
+.logo {
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    margin-right: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #FBF5DE;
+}

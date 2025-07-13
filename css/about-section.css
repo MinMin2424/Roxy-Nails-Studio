@@ -1,0 +1,22 @@
+.about {
+    margin-top: 20px;
+    padding-top: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    /* gap: 20px; */
+}
+
+.about-text h1 {
+    font-size: 1.8em;
+}
+
+.about-text p {
+    line-height: 30px;
+}
+
+.about-image {
+    background-color: brown;
+    width: 50%;
+}
