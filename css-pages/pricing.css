@@ -27,6 +27,10 @@ main h3 {
     align-items: center;
 }
 
+.discount p {
+    text-align: center;
+}
+
 .discount-50 {
     font-family: 'Lora', Arial, sans-serif;
     font-size: 1.2em;
