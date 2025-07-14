@@ -55,6 +55,7 @@ main h3 {
 .prices {
     font-family: 'Lora', Arial, sans-serif;
     text-align: right;
+    width: 40%;
 }
 
 .discounted div {
