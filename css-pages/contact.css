@@ -90,6 +90,11 @@ section .map iframe {
     height: 680px;
 }
 
+.telefon {
+    text-decoration: none;
+    color: #3B060A;
+}
+
 @media (max-width: 600px) {
     section {
         margin-top: 20px;
