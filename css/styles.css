@@ -49,14 +49,31 @@ main {
 }
 
 .cta-buttons a {
-    text-decoration: none;
+    /* text-decoration: none;
     color: black;
     padding: 10PX;
     font-size: 0.9em;
     color: #FBF5DE;
     border-radius: 10PX;
     cursor: pointer;
-    border: #FBF5DE 2px solid;
+    border: #FBF5DE 2px solid; */
+    background-color: #901E3E;
+    color: #FBF5DE;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-family: 'Lora', serif;
+    font-size: 0.8em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.cta-buttons a:hover {
+    box-shadow: 0 0 10px #fcefdc, 0 0 20px #fcefdc;
+    transform: translateY(-2px);
 }
 
 .cta-buttons a.book-app {

@@ -28,12 +28,16 @@ footer {
 .icon-links {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
 }
 
 .icon-links img {
     width: 30px;
     opacity: 0.8;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 0 10px #fcefdc, 0 0 20px #fcefdc;
+    transform: translateY(-2px);
 }
 
 .contact-links p {

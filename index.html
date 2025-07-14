@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/booking-section.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/number-font.css">
+    <link rel="stylesheet" href="css/header-font.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
@@ -21,11 +22,11 @@
 <body>
     
     <nav>
-        <div class="logo">
+        <div class="logo header">
             <a href="index.html">Roxy Nails Studio</a>
         </div>
         <div class="nav-links">
-            <a href="index.html">Home</a>
+            <a href="index.html" class="active">Home</a>
             <a href="services.html">Services</a>
             <a href="pricing.html">Pricing</a>
             <a href="contact.html">Contact</a>
@@ -45,7 +46,7 @@
 
     <div class="fullscreen-menu" id="fullscreenMenu">
         <div class="nav-links">
-            <a href="index.html">Home</a>
+            <a href="index.html" class="active">Home</a>
             <a href="services.html">Services</a>
             <a href="pricing.html">Pricing</a>
             <a href="contact.html">Contact</a>
@@ -60,7 +61,7 @@
 
     <main>
         <section class="hero">
-            <h1>Enhance your beauty <br> Naturally & professionally</h1>
+            <h1 class="header">Enhance your beauty <br> Naturally & professionally</h1>
             <p>Welcome to Roxy Nails Studio</p>
             <div class="cta-buttons">
                 <a href="contact.html" class="book-app">Book Appointment</a>
@@ -82,30 +83,30 @@
 
     <section class="services">
         <div class="title">
-            <h1>What We Provide</h1>
+            <h1 class="header">What We Provide</h1>
         </div>
         <div class="items">
-            <div class="services-item">
+            <a href="services.html" class="services-item">
                 <img src="images/nail-polish-red.png" alt="manicure-pedicure">
                 <h3>Manicure & Pedicure</h3>
-                <a href="services.html">Details</a>
-            </div>
-            <div class="services-item">
+                <span>Details</span>
+            </a>
+            <a href="services.html" class="services-item">
                 <img src="images/eyelashes-red.png" alt="eyelashes">
                 <h3>Eyelash Extension</h3>
-                <a href="services.html">Details</a>
-            </div>
-            <div class="services-item">
+                <span>Details</span>
+            </a>
+            <a href="services.html" class="services-item">
                 <img src="images/lips-red.png" alt="lip">
                 <h3>Permanent Make-Up</h3>
-                <a href="services.html">Details</a>
-            </div>
+                <span>Details</span>
+            </a>
         </div>
     </section>
 
     <section class="about">
         <div class="about-text">
-            <h1>Who Are We</h1>
+            <h1 class="header">Who Are We</h1>
             <p>
                 Roxy Nails Studio has been proudly serving clients since <span class="numbers">2007</span>. <br>
                 We specialize in professional nail care, pedicures, eyelash extensions, and permanent makeup. <br>
@@ -119,14 +120,14 @@
     </section>
 
     <section class="booking">
-        <h1>Ready to Transform Your Look?</h1>
+        <h1 class="header">Ready to Transform Your Look?</h1>
         <p>Book your appointment today and experience the difference</p>
         <a href="contact.html">Book Now</a>
     </section>
 
     <footer>
         <div class="salon-logo">
-            <h2>Roxy Nails Studio</h2>
+            <h2 class="header">Roxy Nails Studio</h2>
             <p>Your beauty destination</p>
             <p>Transform yourself with our beauty services. We offet everything you need to look and feel your best.</p>
         </div>

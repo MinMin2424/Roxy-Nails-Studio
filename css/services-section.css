@@ -31,6 +31,12 @@
     align-items: center;
     border: #FBF5DE 2px solid;
     border-radius: 10px;
+    text-decoration: none;
+}
+
+.services .items .services-item:hover {
+    box-shadow: 0 0 10px #fcefdc, 0 0 20px #fcefdc;
+    transform: translateY(-2px);
 }
 
 .services .items .services-item a {
