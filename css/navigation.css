@@ -30,6 +30,7 @@ nav {
 
 .nav-links a {
     text-decoration: none;
+    text-transform: uppercase;
     color: #FBF5DE;
 }
 
