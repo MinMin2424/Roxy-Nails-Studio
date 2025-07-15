@@ -37,7 +37,19 @@ main {
 }
 
 .main-picture {
-    background-color: brown;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.main-picture img {
+    width: 100%;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    box-shadow: 0 0 10px #fcefdc, 0 0 20px #fcefdc;
+    transform: translateY(-2px);
 }
 
 .cta-buttons {
@@ -97,6 +109,10 @@ main {
     margin-bottom: -10px;
 }
 
+.beauty {
+    display: none;
+}
+
 @media (max-width: 600px) {
     body {
         max-width: 600px;
@@ -107,6 +123,10 @@ main {
     }
 
     main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         border-bottom: #FBF5DE solid 1px;
     }
     
@@ -129,4 +149,34 @@ main {
         align-items: center;
         margin-bottom: -30px;
     }
+
+    .stats {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 40px;
+        gap: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .stat-item {
+        text-align: center;
+        align-self: center;
+    }
+
+    .beauty {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .beauty img {
+        width: 100%;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        box-shadow: 0 0 10px #fcefdc, 0 0 20px #fcefdc;
+        transform: translateY(-2px);
+    }
+
+
 }
