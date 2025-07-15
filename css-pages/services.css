@@ -28,6 +28,11 @@ main {
 
 .service-items .info {
     width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* min-height: 100%; */
+    padding-bottom: 20px;
 }
 
 .service-items .info h3 {
@@ -36,6 +41,30 @@ main {
 
 .service-items .info p {
     line-height: 30px;
+    margin: 5px 0px;
+}
+
+.service-items .info p:last-child {
+    margin-bottom: 20px;
+}
+
+.service-items .info .eyelash-curls {
+    background-color: #901E3E;
+    color: #FBF5DE;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-family: 'Lora', serif;
+    font-size: 0.8em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+    text-decoration: none;
+    box-shadow: 0 0 10px #fcefdc, 0 0 20px #fcefdc;
+    transform: translateY(-2px);
+    align-self: flex-start;
+    text-transform: uppercase;
+    margin-top: 20px;
 }
 
 .service-items .image {
@@ -51,7 +80,7 @@ main {
     border-radius: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     main {
         margin: 20px;
     }
@@ -66,6 +95,10 @@ main {
 
     .service-items .info {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .service-items .info h3 {
@@ -74,6 +107,17 @@ main {
 
     .service-items .info p {
         text-align: center;
+        margin: 7px;
+    }
+
+    .service-items .info p:last-child {
+        padding-bottom: 20px;
+    }
+
+    .service-items .info .eyelash-curls {
+        align-self: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
 
     .service-items .image {
