@@ -95,7 +95,7 @@ section .map iframe {
     color: #3B060A;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     section {
         margin-top: 20px;
         margin-bottom: 20px;

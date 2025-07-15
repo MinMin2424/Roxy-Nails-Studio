@@ -98,3 +98,19 @@ main h3 {
         padding: 20px;
     }
 }
+
+@media (max-width: 1000px) and (min-width: 600px){
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 0 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-items {
+        width: 60%;
+        padding: 20px 60px;
+    }
+}

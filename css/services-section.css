@@ -47,7 +47,6 @@
 @media (max-width: 600px) {
     .services {
         border-bottom: #FBF5DE solid 1px;
-        padding-bottom: 70px;
     }
 
     .services .title {

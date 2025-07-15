@@ -39,7 +39,7 @@
     display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .about-web {
         display: none;
     }
@@ -80,5 +80,11 @@
     .about-text p {
         font-size: 1em;
         text-align: center;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+    .about-image {
+        max-width: 350px;
     }
 }

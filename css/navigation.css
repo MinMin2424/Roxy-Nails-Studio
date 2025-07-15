@@ -115,3 +115,14 @@ nav {
 .fullscreen-menu.active {
     display: flex;
 }
+
+@media (max-width: 900px) and (min-width: 600px) {
+    nav {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+}

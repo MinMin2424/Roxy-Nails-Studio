@@ -177,6 +177,25 @@ main {
         box-shadow: 0 0 10px #fcefdc, 0 0 20px #fcefdc;
         transform: translateY(-2px);
     }
+}
 
+@media (max-width: 1200px) and (min-width: 1000px) {
+    .main-picture img {
+        border-top-left-radius: 160px;
+        border-bottom-right-radius: 160px;
+    }
+}
 
+@media (max-width: 1000px) and (min-width: 800px) {
+    .main-picture img {
+        border-top-left-radius: 140px;
+        border-bottom-right-radius: 140px;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 600px) {
+    .main-picture img {
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
 }
