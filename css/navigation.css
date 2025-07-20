@@ -8,6 +8,16 @@ nav {
     /* background-color: #f8f8f8; */
 }
 
+.languages-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.czech {
+    text-decoration: none;
+}
+
 .czech img {
     width: 30px;
 }
