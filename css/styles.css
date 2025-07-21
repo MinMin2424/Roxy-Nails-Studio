@@ -16,6 +16,10 @@ body {
     /* background-color: aqua; */
 }
 
+h2 {
+    font-size: 1.6em;
+}
+
 .hero {
     text-align: center;
     padding: 50px 20px;

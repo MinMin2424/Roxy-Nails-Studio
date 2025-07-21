@@ -7,10 +7,6 @@
     align-items: center;
 }
 
-.booking h1 {
-    font-size: 1.8em;
-}
-
 .booking a {
     background-color: #901E3E;
     color: #FBF5DE;
@@ -34,7 +30,7 @@
         margin-top: 20px;
     }
 
-    .booking h1 {
+    .booking h2 {
         font-size: 1.4em;
     }
 

@@ -95,6 +95,16 @@ section .map iframe {
     color: #3B060A;
 }
 
+footer {
+    background-color: #210306;
+    padding: 10px 50px;
+    border-top-left-radius: 200px;
+}
+
+footer p {
+    font-style: italic;
+}
+
 @media (max-width: 750px) {
     section {
         margin-top: 20px;
@@ -117,5 +127,13 @@ section .map iframe {
         width: 100%;
         border: 10px;
         height: 200px;
+    }
+
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 10px;
+        border-top-left-radius: 100px;
     }
 }

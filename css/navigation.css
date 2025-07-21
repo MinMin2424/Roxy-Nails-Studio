@@ -31,6 +31,14 @@ nav {
     text-decoration: none;
     color: #FBF5DE;
     text-shadow: 1px 1px 10px #FBF5DE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 80px;
 }
 
 .nav-links {
