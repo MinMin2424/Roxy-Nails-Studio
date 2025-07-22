@@ -105,6 +105,12 @@ footer p {
     font-style: italic;
 }
 
+
+.developer {
+    text-decoration: none;
+    color: #FBF5DE;
+}
+
 @media (max-width: 750px) {
     section {
         margin-top: 20px;
