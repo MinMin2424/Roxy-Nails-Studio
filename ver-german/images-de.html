@@ -175,11 +175,11 @@
             <div class="gallery-item makeup" style="display: none;"><img src="../images-section/IMG_3761.JPG" alt="photos"></div>
             <div class="gallery-item makeup" style="display: none;"><img src="../images-section/IMG_3763.JPG" alt="photos"></div>
             <div class="gallery-item makeup" style="display: none;"><img src="../images-section/IMG_3764.JPG" alt="photos"></div>
-            <div class="gallery-item makeup" style="display: none;"><img src="../images-section/IMG_3767.JPG" alt="photos"></div>
             <div class="gallery-item makeup" style="display: none;"><img src="../images-section/IMG_3778.JPG" alt="photos"></div>
             <div class="gallery-item makeup" style="display: none;"><img src="../images-section/IMG_3779.JPG" alt="photos"></div>
             <div class="gallery-item makeup" style="display: none;"><img src="../images-section/IMG_3781.JPG" alt="photos"></div>
             <div class="gallery-item makeup" style="display: none;"><img src="../images-section/IMG_3783.JPG" alt="photos"></div>
+            <div class="gallery-item makeup" style="display: none;"><img src="../images-section/IMG_3787.JPG" alt="photos"></div>
 
             <div class="gallery-item makeup" style="display: none;"><img src="../images/service-permanent.JPG" alt="photos"></div>
             <div class="gallery-item makeup" style="display: none;"><img src="../images-section/IMG_3500.jpg" alt="photos"></div>
@@ -203,6 +203,13 @@
 
     <script src="../js/burger.js"></script>
     <script src="../js/category-photo.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('img').forEach(function(img) {
+                img.loading = "lazy";
+            });
+        });
+    </script>
     
 </body>
 </html>
