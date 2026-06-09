@@ -43,7 +43,8 @@ main div img {
     flex-wrap: wrap;
 }
 
-.category-btn {
+.category-btn, 
+#loadMoreBtn {
     background-color: #901E3E;
     color: #FBF5DE;
     border: none;
@@ -57,7 +58,13 @@ main div img {
     letter-spacing: 1px;
 }
 
-.category-btn:hover, .category-btn.active {
+#loadMoreBtn {
+    margin-top: 20px;
+}
+
+.category-btn:hover, 
+.category-btn.active, 
+#loadMoreBtn {
     background-color: #FBF5DE;
     color: #3B060A;
 }
@@ -73,6 +80,10 @@ main div img {
     overflow: hidden;
     transition: transform 0.3s ease;
     height: 200px;
+}
+
+.no-display {
+    display: none;
 }
 
 .gallery-item:hover {
