@@ -1,0 +1,16 @@
+.info {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom: #FBF5DE solid 1px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-subsection {
+    width: fit-content;
+}
